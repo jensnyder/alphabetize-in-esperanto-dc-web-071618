@@ -2,9 +2,8 @@ require "pry"
 
 def alphabetize(arr)
   alphabet = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
-  arr.sort_by do |a, b|
-    binding.pry
-    b <=> a
+  arr.sort_by do |phrase|
+    alphabet.index(phrase[0])
   end
 end
 
