@@ -1,3 +1,4 @@
 def alphabetize(arr)
-  arr.sort_by{ |x,y| y <=> x }
+  arr.sort_by do |a,b|
+    
 end
