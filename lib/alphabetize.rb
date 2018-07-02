@@ -3,8 +3,9 @@ require "pry"
 def alphabetize(arr)
   alphabet = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   arr.sort_by do |phrase|
-    phrase.split(",")
-    alphabet.index(phrase[0])
+    phrase.split(",").each do |letter|
+      alphabet.index(letter)
+    end
   end
 end
 
