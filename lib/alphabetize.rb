@@ -10,5 +10,5 @@ def alphabetize(arr)
 end
 
 alphabet = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
-expressions = ["mi amas vin", "bonan matenon", "pacon", "ĉu vi parolas esperanton"]
+expressions = ["mi amas vin", "bonan mateno", "pacon", "ĉu vi parolas esperanton"]
 puts alphabetize(expressions)
