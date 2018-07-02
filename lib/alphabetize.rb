@@ -1,7 +1,7 @@
 def alphabetize(arr)
   alphabet = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   arr.sort_by do |a, b|
-    alphabet.index(b[0]) <=> alphabet.index(a[0])
+    alphabet.index(b[1]) <=> alphabet.index(a[1])
   end
 end
 
