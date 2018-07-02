@@ -3,7 +3,8 @@ require "pry"
 def alphabetize(arr)
   alphabet = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   arr.sort_by do |a, b|
-    alphabet.index(b[1]) <=> alphabet.index(a[1])
+    binding.pry
+    b <=> a
   end
 end
 
