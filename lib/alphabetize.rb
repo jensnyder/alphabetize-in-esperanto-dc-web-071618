@@ -5,7 +5,6 @@ def alphabetize(arr)
   arr.sort_by do |phrase|
     phrase.split("").each do |letter|
       alphabet.index(letter)
-      binding.pry
     end
   end
 end
