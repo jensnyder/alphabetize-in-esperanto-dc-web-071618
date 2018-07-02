@@ -5,4 +5,4 @@ end
 
 expressions = ["mi amas vin", "bonan matenon", "pacon", "ĉu vi parolas esperanton"]
 puts alphabetize(expressions)
-puts alphabet.index("k")
+puts expressions[0]
