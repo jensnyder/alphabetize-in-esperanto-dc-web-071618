@@ -8,3 +8,4 @@ expressions = ["mi amas vin", "bonan matenon", "pacon", "ĉu vi parolas esperant
 puts alphabetize(expressions)
 puts expressions[0][0]
 puts alphabet.index("m")
+puts alphabet.index(expressions[0][0])
